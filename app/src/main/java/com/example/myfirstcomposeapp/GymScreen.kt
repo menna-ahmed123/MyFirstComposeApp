@@ -71,7 +71,7 @@ fun GymItem(gym: Gym,    onClick:(Int)->Unit,onItemClick:(Int)-> Unit
                 contentDiscription = "Location Icon")
             GymDetails(gym,Modifier.weight(0.70f))
             DefaultIcon(icon,Modifier.weight(0.15f), contentDiscription = "Location Icon"){
-                onClick(gym.id)
+                onClick(gym.id )
             }
         }
 
